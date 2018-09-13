@@ -1,0 +1,86 @@
+body {
+    background-image: url("../images/background_img.jpg");
+    display: -webkit-inline-box;
+  }
+  
+  #screen {
+    overflow: auto;
+  }
+  
+  #screen div {
+    float: left;
+  }
+  
+  #title {
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(18, 50, 196);
+  }
+
+  #random-place {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding: 4px;
+    font-size: 3vw;
+    color: purple;
+    background-color: mediumseagreen;
+  }
+  
+  #score-place {
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    width: 210px;
+    height: 100px;
+    padding: 4px;
+    color: ghostwhite;
+    background-color: salmon;
+  }
+  
+  #score-title {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 210px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color :salmon;
+  }
+  
+  .crystals-button {
+    display: inline;
+  }
+
+  #crystal-place {
+    position: absolute;
+    top: 200px;
+  }
+  
+  .crystal-img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-color: white;
+    border: solid;
+    border-color: lightblue;
+  }
+  
+  #score-number {
+    font-size: 3vw;
+  }
+  
+  #win-place {
+    height: 80px;
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: firebrick;
+  }
+  
